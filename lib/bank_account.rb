@@ -17,7 +17,7 @@ class BankAccount
     @status == "open" && @balance > 0
   end
 
-  def close_account
-
+  def display_balance
+    puts "Your balance is $#{self.balance}."
   end
 end
