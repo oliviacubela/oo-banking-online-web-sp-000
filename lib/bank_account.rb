@@ -9,7 +9,8 @@ class BankAccount
     @name = name
   end
 
-  def deposit
+  def deposit(amount)
+    @balance += amount
   end
 
   def valid?
