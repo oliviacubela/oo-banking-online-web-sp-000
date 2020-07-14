@@ -20,4 +20,8 @@ class BankAccount
   def display_balance
     "Your balance is $#{self.balance}."
   end
+
+  def close_account
+    @status = "closed"
+  end
 end
